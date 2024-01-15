@@ -25,8 +25,7 @@ incrementBy: ( state, action ) => {
 });
 
 // Action creators are generated for each case reducer function
-export const { increment } = counterSlice.actions;
-export const { decrement } = counterSlice.actions;
-export const { incrementBy } = counterSlice.actions;
+export const { increment,decrement,incrementBy } = counterSlice.actions;
+
 
 
